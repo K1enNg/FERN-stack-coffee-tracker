@@ -7,7 +7,7 @@ import History from './components/History'
 
 const App = () => {
 
-  const isAuthenticated = false
+  const isAuthenticated = true
 
   const authenticatedContent = (
     <>

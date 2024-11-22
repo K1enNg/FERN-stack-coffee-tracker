@@ -9,7 +9,7 @@ const CoffeeForm = () => {
   const [min, setMin] = useState(0)
 
   function handleSubmitForm() {
-    
+    console.log( selectedCoffee, coffeeCost, hour, min)
   }
   return (
     <>
@@ -83,7 +83,7 @@ const CoffeeForm = () => {
           </select>
         </div>
       </div>
-      <button>
+      <button onClick={handleSubmitForm}>
         <p>Add Entry</p>
       </button>
     </>
